@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github form</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            .formInputGuideline{
+                color: gray;
+                font-size: 13px;
+                font-weight: 550;
+                opacity: 0.7;
+            }
+            input{
+                border-radius: 5px;
+                border: 1.5px solid rgba(200,200,200,0.8);
+                outline: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 6px;
+                width: 280px;
+                font-size: 15px;
+                font-weight: 500;
+                opacity: 0.7;
+                margin-bottom: 6px;
+            }
+            ::placeholder{
+                opacity: 0.85;
+            }
+            form{
+                display: block;
+                overflow: hidden;
+                border: 1px solid rgba(200,200,200,0.8); 
+                border-radius: 5px;
+                padding: 10px;
+                width: 300px;
+                height: 450px;
+            }
+            .descriptionPart{
+                color: gray;
+                font-size: 12px;
+                font-weight: 500;
+                margin: 3px;
+            }
+            .Two{
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: #55A9D4;
+            }
+            button{
+                margin: 4px;
+                padding-top: 25px; 
+                padding-bottom: 25px;
+                padding-left: 85px;
+                padding-right: 85px;
+                background: green;
+                color: white;
+                border: 1px solid white;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+                text-align: center;
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <p class="formInputGuideline">Username</p>
+            <input type="text" placeholder="Pick a username">
+            <p class="formInputGuideline">Email</p>
+            <input type="text" placeholder="you@example.com">
+            <p class="formInputGuideline">Password</p>
+            <input type="password" placeholder="Create a password">
+                <p class="descriptionPart">Make sure it's more than 15 characters,or at least </p>
+                <p class="descriptionPart">8 characters, including a number,and a lowercase </p>
+                <p class="descriptionPart">letter.</p>
+
+                <button>Sign up for GitHub</button>
+                <p class="descriptionPart Two">By clicking "Sign up for GitHub", you agree to our</p> 
+                <p class="descriptionPart Two">
+                    <a href="">terms of service</a> 
+                    <span>and</span> 
+                    <a href="">privacy statement</a>.
+                    We'll
+                </p>
+                <p class="descriptionPart Two">occasionally send you account related emails.</p>
+        </form>
+    </body>
+</html>
