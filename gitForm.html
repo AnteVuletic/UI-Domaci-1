@@ -43,6 +43,10 @@
                 font-size: 12px;
                 font-weight: 500;
                 margin: 3px;
+                
+            }
+            .descriptionPart > br {
+                padding: 5px;
             }
             .Two{
                 text-align: center;
@@ -70,25 +74,21 @@
     </head>
     <body>
         <form>
-            <p class="formInputGuideline">Username</p>
+            <label class="formInputGuideline">Username</label>
+            </br>
             <input type="text" placeholder="Pick a username">
-            <p class="formInputGuideline">Email</p>
+            <label class="formInputGuideline">Email</label>
             <input type="text" placeholder="you@example.com">
-            <p class="formInputGuideline">Password</p>
+            <label class="formInputGuideline">Password</label>
             <input type="password" placeholder="Create a password">
-                <p class="descriptionPart">Make sure it's more than 15 characters,or at least </p>
-                <p class="descriptionPart">8 characters, including a number,and a lowercase </p>
-                <p class="descriptionPart">letter.</p>
+            <p class="descriptionPart">Make sure it's more than 15 characters,or at least <br>
+            8 characters, including a number,and a lowercase <br>
+            letter.</p>
 
-                <button>Sign up for GitHub</button>
-                <p class="descriptionPart Two">By clicking "Sign up for GitHub", you agree to our</p> 
-                <p class="descriptionPart Two">
-                    <a href="">terms of service</a> 
-                    <span>and</span> 
-                    <a href="">privacy statement</a>.
-                    We'll
-                </p>
-                <p class="descriptionPart Two">occasionally send you account related emails.</p>
+            <button>Sign up for GitHub</button>
+            <p class="descriptionPart Two">By clicking "Sign up for GitHub", you agree to our<br> 
+            <a href="">terms of service</a> and <a href="">privacy statement</a>.We'll<br>
+            occasionally send you account related emails.</p>
         </form>
     </body>
 </html>
